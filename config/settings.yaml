@@ -1,0 +1,29 @@
+app:
+  name: "RetailAnalyticsLakehouse"
+  environment: "development"
+  log_level: "INFO"
+
+paths:
+  raw_data: "data/raw"
+  processed_data: "data/processed"
+  bronze_layer: "data/lakehouse/bronze"
+  silver_layer: "data/lakehouse/silver"
+  gold_layer: "data/lakehouse/gold"
+
+spark:
+  master: "local[*]"
+  app_name: "pyspark-retail-analytics-dev"
+  configs:
+    spark.sql.shuffle.partitions: "4"  # Otimizado para execuções locais pequenas
+    spark.default.parallelism: "4"
+
+datasets:
+  sales:
+    raw_filename: "sales_raw.json"
+    format: "json"
+  customers:
+    raw_filename: "customers_raw.csv"
+    format: "csv"
+  products:
+    raw_filename: "products_raw.csv"
+    format: "csv"
