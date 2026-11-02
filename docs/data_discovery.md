@@ -1,6 +1,6 @@
 # Relatório de Inspeção de Dados, Governança e Decisões Técnicas
 **Projeto:** Retail Analytics Lakehouse (PySpark & Delta Lake)  
-**Autor:** Eduardo de Castro Bello  
+**Autor:** Eduardo Bello  
 **Camada:** Raw / Ingestion Audit Report  
 
 ---
