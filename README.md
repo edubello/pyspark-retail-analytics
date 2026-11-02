@@ -37,4 +37,4 @@ Este repositório apresenta uma solução completa de **Data Lakehouse Varejista
 
 ▼ 
 
-git add README.md[ Power BI / BI Dashboards ]
+[ Power BI / BI Dashboards ]
