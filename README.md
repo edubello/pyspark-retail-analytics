@@ -22,11 +22,19 @@ Este repositório apresenta uma solução completa de **Data Lakehouse Varejista
 
 
 [ Raw Data / Dados Brutos ] (CSV / JSON)
+
 ▼
+
 [ 🥉 BRONZE LAYER ] --> Raw Ingestion & Schema Enforcement (ingestion.py)
+
 ▼
+
 [ 🥈 SILVER LAYER ] --> Cleaning, Deduplication & Quality Validation (transformations.py) 
+
 ▼
+
 [ 🥇 GOLD LAYER ] --> Business Aggregations & Analytical KPIs (analytics.py)
+
 ▼ 
-[ Power BI / BI Dashboards ]
+
+git add README.md[ Power BI / BI Dashboards ]
