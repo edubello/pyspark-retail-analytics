@@ -1,7 +1,7 @@
 """
 Módulo de Ingestão e Sanitização de Dados Brutos (Raw Layer)
 Projeto: Retail Analytics Lakehouse (PySpark & Delta Lake)
-Autor: Eduardo FBello
+Autor: Eduardo Bello
 
 Responsável por verificar fontes brutas, aplicar correções estruturais iniciais 
 (como sanitização de JSON malformado) e preparar os dados para a camada Silver.
